@@ -11738,7 +11738,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND2" gate="1" x="50.8" y="-15.24"/>
 <instance part="JP1" gate="G$1" x="-78.74" y="27.94"/>
 <instance part="JP2" gate="G$1" x="-78.74" y="-20.32"/>
-<instance part="JP3" gate="G$1" x="63.5" y="2.54" rot="R180"/>
+<instance part="JP3" gate="G$1" x="63.5" y="2.54" rot="MR0"/>
 <instance part="GND3" gate="1" x="48.26" y="0"/>
 <instance part="KK1" gate="G$1" x="12.7" y="45.72"/>
 <instance part="KK2" gate="G$1" x="12.7" y="-43.18" rot="R180"/>
@@ -11835,11 +11835,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="28.702" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="D11" gate="1" pin="C"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="55.88" y1="5.08" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <junction x="45.72" y="35.56"/>
-<pinref part="D11" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="OUT_NEG" class="0">
@@ -11859,11 +11859,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="D10" gate="1" pin="C"/>
 <wire x1="15.24" y1="-53.34" x2="25.4" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-53.34" x2="25.4" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="D12" gate="1" pin="C"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="0" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-33.02" x2="45.72" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="45.72" y="-33.02"/>
-<pinref part="D12" gate="1" pin="C"/>
 </segment>
 </net>
 <net name="IN2_AC_A" class="0">
